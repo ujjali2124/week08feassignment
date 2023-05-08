@@ -1,0 +1,94 @@
+div.center {
+    margin-left: auto; 
+    margin-right: auto;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    background-color: #fdf6f6;
+    padding: 20px;
+    width: 50%;
+    font-size: larger;
+}
+
+input[type=text], textarea {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+td.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 430px;
+    align-self: center;
+    margin-left: 5%;
+  }
+  
+td.gallery:hover {
+    border: 1px solid #777;
+}
+  
+td.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 30%;
+    align-self: center;
+    align-items: center;
+}
+  
+table.center {
+    margin-left: auto; 
+    margin-right: auto;
+}
+  
+td, th {
+    text-align: center;
+    padding: 8px;
+    align-items: center;
+}
+
+.button {
+    background-color: #7689de; 
+    border: none;
+    color: #a9dce3;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+  
+.header {
+    padding: 20px;
+    text-align: center;
+    background:#a9dce3;
+    color: #7689de;
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    background-color: #7689de;
+    color: #a9dce3;
+    text-align: center;
+}
+
+#thankdiv {
+    text-align: center;
+    background-color: #7689de;
+    color: #e2e7e7;
+}
